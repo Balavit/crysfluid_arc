@@ -1,0 +1,3 @@
+train_v3_ind_b250_nogate: solved 87/400 verified 93 wall 200s
+eval_v3_ind_b250_nogate: solved 34/400 verified 38 wall 238s
+DONE

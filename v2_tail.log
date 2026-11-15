@@ -1,0 +1,5 @@
+DECISION {'tune_train_subset200_solved_b500': {'lam0_d3': 44, 'lam2_d3': 43, 'lam4_d3': 43, 'lam8_d3': 43, 'lam2_d4': 43}, 'lam': 2, 'depth': 3}
+scale_b50: solved 27/400 verified 32 wall 60s
+scale_b100: solved 29/400 verified 33 wall 111s
+eval_v2_H_b250: solved 30/400 verified 34 wall 267s
+DONE

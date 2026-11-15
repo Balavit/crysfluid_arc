@@ -1,0 +1,5 @@
+train_v4_b250: solved 98/400 verified 106 wall 434s
+train 98
+eval_v4_b250: solved 39/400 verified 45 wall 585s
+eval 39 45
+DONE

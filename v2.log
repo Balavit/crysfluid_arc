@@ -1,0 +1,27 @@
+tuneS_lam2_d3: solved 43/200 verified 47 wall 217s
+tuneS_lam4_d3: solved 43/200 verified 47 wall 215s
+tuneS_lam8_d3: solved 43/200 verified 47 wall 214s
+tuneS_lam2_d4: solved 43/200 verified 47 wall 292s
+DECISION {'tune_train_subset200_solved_b500': {'lam0_d3': 44, 'lam2_d3': 43, 'lam4_d3': 43, 'lam8_d3': 43, 'lam2_d4': 43}, 'lam': 2, 'depth': 3}
+eval_v2_S1_nolam: solved 29/400 verified 32 wall 527s
+eval_v2_H: solved 30/400 verified 34 wall 515s
+train_r0: solved 78/400 verified 84 wall 460s
+eval_v2_H_S2S3: solved 30/400 verified 34 wall 492s
+train_r1: solved 80/400 verified 87 wall 408s
+eval_v2_full: solved 30/400 verified 34 wall 498s
+scale_b1000: solved 30/400 verified 34 wall 920s
+arc2_eval_v2_full: solved 0/120 verified 0 wall 140s
+arc2_eval_v2_S1_nolam: solved 0/120 verified 0 wall 143s
+concept_v2_full: solved 3/160 verified 19 wall 149s
+concept_v2_S1_nolam: solved 3/160 verified 19 wall 143s
+eval_v2_base_d0: solved 0/400 verified 0 wall 0s
+eval_v2_base_d1: solved 16/400 verified 17 wall 1s
+scale_b250: solved 30/400 verified 34 wall 254s
+loco_geometry: solved 30/400 verified 34 wall 253s
+loco_objects: solved 29/400 verified 33 wall 221s
+loco_scale_tile: solved 27/400 verified 30 wall 245s
+loco_mirror_sym: solved 24/400 verified 27 wall 254s
+loco_physics_fill: solved 29/400 verified 32 wall 215s
+loco_colour: solved 26/400 verified 28 wall 253s
+loco_logic_grid: solved 29/400 verified 33 wall 228s
+loco_lines_rays: solved 28/400 verified 32 wall 161s

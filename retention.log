@@ -1,0 +1,9 @@
+ret_frozen: solved 79/400 verified 87 wall 218s
+frozen {'solved': 79, 'nll_s1': 1.1072120051135876}
+ret_naive: solved 80/400 verified 85 wall 211s
+naive {'solved': 80, 'nll_s1': 4.346671171608668}
+ret_ewc: solved 81/400 verified 87 wall 211s
+ewc {'solved': 81, 'nll_s1': 3.254302526832435}
+ret_replay: solved 80/400 verified 87 wall 213s
+replay {'solved': 80, 'nll_s1': 0.7856501702186868}
+DONE

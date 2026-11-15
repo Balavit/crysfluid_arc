@@ -1,0 +1,5 @@
+train_v3_noind_b250: solved 78/400 verified 83 wall 197s
+train_v3_ind_b250: solved 86/400 verified 92 wall 207s
+eval_v3_ind_b250: solved 33/400 verified 37 wall 245s
+eval_v3_full_b500: solved 33/400 verified 37 wall 459s
+DONE

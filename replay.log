@@ -1,0 +1,21 @@
+base nll 0.930766053004799 n d1 58
+verified eval tasks 20
+frozen                   final NLL(S1 memory) 0.931 +- 0.000 (finite 10/10) | NLL(new) 5.217
+naive                    final NLL(S1 memory) 3.874 +- 0.312 (finite 10/10) | NLL(new) 1.320
+replay                   final NLL(S1 memory) 0.715 +- 0.016 (finite 10/10) | NLL(new) 1.135
+ewc lam=10 c=0.5         final NLL(S1 memory) 3.605 +- 0.420 (finite 10/10) | NLL(new) 1.480
+ewc lam=100 c=0.5        final NLL(S1 memory) 3.565 +- 0.418 (finite 10/10) | NLL(new) 1.430
+ewc lam=1000 c=0.5       final NLL(S1 memory) 3.565 +- 0.418 (finite 10/10) | NLL(new) 1.430
+ewc lam=100 c=0.1        final NLL(S1 memory) 3.718 +- 0.415 (finite 10/10) | NLL(new) 1.397
+ewc lam=100 c=0.9        final NLL(S1 memory) 3.463 +- 0.378 (finite 10/10) | NLL(new) 1.496
+/usr/local/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/usr/local/lib/python3.13/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/usr/local/lib/python3.13/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/usr/local/lib/python3.13/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/usr/local/lib/python3.13/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+ewc lam=100 no clamp     final NLL(S1 memory) nan +- nan (finite 0/10) | NLL(new) 27.355

@@ -1,0 +1,11 @@
+stream_ewc_chunk0: solved 1/80 verified 3 wall 54s
+ewc {'chunk': 0, 'solved': 1, 'n': 80, 'verified_new': 3, 'nll_train_mem': np.float64(1.5129263669800506), 'nll_new': np.float64(0.9254242094144122), 'lam_eff': np.float64(13.77193321648075)}
+stream_ewc_chunk1: solved 6/80 verified 6 wall 55s
+ewc {'chunk': 1, 'solved': 6, 'n': 80, 'verified_new': 6, 'nll_train_mem': np.float64(1.9102660026213751), 'nll_new': np.float64(0.8044029346410717), 'lam_eff': np.float64(6.483692816275918)}
+stream_ewc_chunk2: solved 0/80 verified 0 wall 57s
+ewc {'chunk': 2, 'solved': 0, 'n': 80, 'verified_new': 0, 'nll_train_mem': np.float64(1.9102660026213751), 'nll_new': None, 'lam_eff': np.float64(6.483692816275918)}
+stream_ewc_chunk3: solved 5/80 verified 6 wall 58s
+ewc {'chunk': 3, 'solved': 5, 'n': 80, 'verified_new': 6, 'nll_train_mem': np.float64(2.3819642073159244), 'nll_new': np.float64(1.2331226536528939), 'lam_eff': np.float64(6.474006266906397)}
+stream_ewc_chunk4: solved 5/80 verified 5 wall 62s
+ewc {'chunk': 4, 'solved': 5, 'n': 80, 'verified_new': 5, 'nll_train_mem': np.float64(2.7440448008906935), 'nll_new': np.float64(1.69290068962191), 'lam_eff': np.float64(0.6400377546006107)}
+DONE

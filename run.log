@@ -1,0 +1,29 @@
+train_r0_uniform: solved 55/400 verified 61 wall 259s
+eval_A_S1: solved 17/400 verified 20 wall 289s
+eval_B_S1S2: solved 16/400 verified 20 wall 291s
+eval_C_S1S2S3: solved 16/400 verified 20 wall 299s
+train_r1_policy: solved 56/400 verified 62 wall 235s
+eval_D_S1S2S3S4: solved 16/400 verified 20 wall 290s
+eval_D2_S1S2S4_noRAG: solved 16/400 verified 20 wall 308s
+stream_naive_chunk0: solved 1/80 verified 3 wall 53s
+naive {'chunk': 0, 'solved': 1, 'n': 80, 'verified_new': 3, 'nll_train_mem': np.float64(2.2574325674971214), 'nll_new': np.float64(0.9057118389250222)}
+stream_naive_chunk1: solved 6/80 verified 6 wall 57s
+naive {'chunk': 1, 'solved': 6, 'n': 80, 'verified_new': 6, 'nll_train_mem': np.float64(3.0814910498409915), 'nll_new': np.float64(0.7489025541960982)}
+stream_naive_chunk2: solved 0/80 verified 0 wall 61s
+naive {'chunk': 2, 'solved': 0, 'n': 80, 'verified_new': 0, 'nll_train_mem': np.float64(3.0814910498409915), 'nll_new': None}
+stream_naive_chunk3: solved 5/80 verified 6 wall 54s
+naive {'chunk': 3, 'solved': 5, 'n': 80, 'verified_new': 6, 'nll_train_mem': np.float64(3.2925800487655903), 'nll_new': np.float64(1.2306497729565344)}
+stream_naive_chunk4: solved 5/80 verified 5 wall 60s
+naive {'chunk': 4, 'solved': 5, 'n': 80, 'verified_new': 5, 'nll_train_mem': np.float64(3.431033787206338), 'nll_new': np.float64(1.1889672635733721)}
+stream_ewc_chunk0: solved 1/80 verified 3 wall 55s
+ewc {'chunk': 0, 'solved': 1, 'n': 80, 'verified_new': 3, 'nll_train_mem': np.float64(26.64419893321672), 'nll_new': np.float64(27.631021115928547)}
+stream_ewc_chunk1: solved 6/80 verified 6 wall 55s
+/home/claude/arcpipe.py:366: RuntimeWarning: overflow encountered in multiply
+  gW = gW + self.lam * self.F[0] * (self.W - self.anchor[0])
+/home/claude/arcpipe.py:339: RuntimeWarning: invalid value encountered in subtract
+  z = self._z(f); l = self.W @ z + self.b; l -= l.max(); e = np.exp(l); return e / e.sum()
+ewc {'chunk': 1, 'solved': 6, 'n': 80, 'verified_new': 6, 'nll_train_mem': np.float64(nan), 'nll_new': np.float64(nan)}
+stream_ewc_chunk2: solved 0/80 verified 0 wall 49s
+ewc {'chunk': 2, 'solved': 0, 'n': 80, 'verified_new': 0, 'nll_train_mem': np.float64(nan), 'nll_new': None}
+stream_ewc_chunk3: solved 5/80 verified 6 wall 43s
+ewc {'chunk': 3, 'solved': 5, 'n': 80, 'verified_new': 6, 'nll_train_mem': np.float64(nan), 'nll_new': np.float64(nan)}
